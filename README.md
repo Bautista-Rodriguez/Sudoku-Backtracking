@@ -9,13 +9,13 @@ El juego de la vida (Conway's game of life) es un juego de cero jugadores, el cu
 Las celdas se ajustan a las siguientes reglas:
 - Nace: Si una celda muerta tiene exactamente 3 celdas vecinas vivas "nace" (es decir, al turno siguiente estará viva).
 - Muere: una celda viva puede morir por uno de 2 casos:
-- - Sobrepoblación: si tiene más de tres vecinos alrededor.
-- - Aislamiento: si tiene solo un vecino alrededor o ninguno.
+  - Sobrepoblación: si tiene más de tres vecinos alrededor.
+  - Aislamiento: si tiene solo un vecino alrededor o ninguno.
 - Vive: una celda se mantiene viva si tiene 2 o 3 vecinos a su alrededor.
   
 ## Cómo jugar
 Para poder jugar, se utilizan las siguientes teclas del teclado:
-- S(del inglés "Slower"): Ralentiza la velocidad a la que la simulación cambia de estado.
+- S (del inglés "Slower"): Ralentiza la velocidad a la que la simulación cambia de estado.
 - D (del inglés "Delete"): Borra el estado actual de la simulación.
 - F (del inglés "Faster"): Acelera la velocidad a la que la simulación cambia de estado.
 - P (del inglés "Pause"): Pausa/despausa la simulación.
