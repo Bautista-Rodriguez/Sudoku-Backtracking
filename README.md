@@ -1,4 +1,4 @@
-# Game of Life
+# Game of Life - Clon
 ## Introducción
 El juego de la vida (Conway's game of life) es un juego de cero jugadores, el cual determina sus próximos estados a partir de un estado inicial y sin necesidad de una interacción externa. Fue creado por el matemático John Conway en 1970.
 
