@@ -15,7 +15,11 @@ ACLARACIÓN: siguiendo las reglas del juego original, cuando la palabra insertad
 ![MostrarImg2](readme-rsc/Wordle2.png)
 
 ## Cómo jugar
-Se utiliza el teclado para introducir las distintas letras para formar la palabra, pudiendo solo insertar letras. Por conveniencia, se omitió el uso de palabras con la letra 'ñ', y las vocales no pueden llevar tilde (puede haber palabras con tilde como "había", pero al escribirla debe hacerse sin tilde). Para borrar una letra, debe utilizarse la tecla de backspace/retroceso. Al terminarse los intentos o adivinar la palabra, se habilitará un botón de reinicio, que debe ser presionado con el mouse.
+Se utiliza el teclado para introducir las distintas letras para formar la palabra, pudiendo solo insertar letras. 
+Por conveniencia, se omitió el uso de palabras con la letra 'ñ', y las vocales no pueden llevar tilde (puede haber palabras con tilde como "había", pero al escribirla debe hacerse sin tilde). 
+Para borrar una letra, debe utilizarse la tecla de backspace/retroceso. 
+Para introducir una palabra, se debe pulsar la tecla Enter. Para que el programa acepte la palabra, se debe de haber introducido una palabra de 5 letras, y la palabra debe además estar contenida en el diccionario del programa. Caso contrario, mostrará un mensaje indicando cuál de las dos excepciones ha sucedido.
+Al terminarse los intentos o adivinar la palabra, se habilitará un botón de reinicio, que debe ser presionado con el mouse.
   
 ## Estructura del código
 El código se basa en el patrón de arquitectura MVC. 
