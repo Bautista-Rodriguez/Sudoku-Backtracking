@@ -1,6 +1,6 @@
 # Sudoku - Generador y solucionador
 ## Introducción
-Este programa se encarga de generar y solucionar distintas posiciones de un Sudoku con el algoritmo de `Backtracking`.
+Este programa genera y soluciona distintas posiciones de un Sudoku con el algoritmo de `Backtracking`.
 Sudoku es un juego matemático, diseñado a finales de la década de 1970.
 
 ![MostrarImg1](readme-rsc/Sudoku0.png)
