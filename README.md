@@ -1,28 +1,15 @@
-# Game of Life - Clon
+# Wordle - Clon
 ## Introducción
-El juego de la vida (Conway's game of life) es un juego de cero jugadores, el cual determina sus próximos estados a partir de un estado inicial y sin necesidad de una interacción externa. Fue creado por el matemático John Conway en 1970.
+Wordle ([enlace a la página del juego](https://www.nytimes.com/games/wordle/index.html)) es un juego de adivinanza, en el cual el jugador debe adivinar la palabra secreta realizando suposiciones. Fue desarrollado por Josh Wardle en 2021.
 
-![MostrarGif](readme-rsc/GOF2gif.gif)
+![MostrarImg1](readme-rsc/Wordle1.png)
 
-
-## Reglas
-Las celdas se ajustan a las siguientes reglas:
-- Nace: Si una celda muerta tiene exactamente 3 celdas vecinas vivas "nace" (es decir, al turno siguiente estará viva).
-- Muere: una celda viva puede morir por uno de 2 casos:
-  - Sobrepoblación: si tiene más de tres vecinos alrededor.
-  - Aislamiento: si tiene solo un vecino alrededor o ninguno.
-- Vive: una celda se mantiene viva si tiene 2 o 3 vecinos a su alrededor.
-  
 ## Cómo jugar
-Para poder jugar, se utilizan las siguientes teclas del teclado:
-- S (del inglés "Slower"): Ralentiza la velocidad a la que la simulación cambia de estado.
-- D (del inglés "Delete"): Borra el estado actual de la simulación.
-- F (del inglés "Faster"): Acelera la velocidad a la que la simulación cambia de estado.
-- P (del inglés "Pause"): Pausa/despausa la simulación.
-- Botón izq. del mouse: activa/desactiva la celda que se presiona.
+El jugador tiene seis intentos para adivinar la palabra. Al introducir una supocisión, las letras de la palabra cambiarán de color de acuerdo a las siguientes reglas:
+- Verde: Si la palabra secreta contiene la letra y además se encuentra en el lugar correcto, la letra cambia de color a verde.
+- Amarillo: Si la palabra secreta contiene la letra pero se encuentra en el lugar incorrecto, la letra cambia de color a amarillo.
+- Negro: Si la palarba secreta no contiene la letra, esta cambiará de color a negro.
   
-ACLARACIÓN: El botón izq. y la tecla 'D' solo funcionan cuando el juego está en pausa.
-
 ## Estructura del código
 El código se basa en el patrón de arquitectura MVC. 
 - Modelo: El modelo se encarga de retornar y cambiar el estado actual de la simulación, así como los datos del tamaño de las celdas, la pantalla, y otros.
