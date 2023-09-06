@@ -28,11 +28,16 @@ Al terminarse los intentos o adivinar la palabra, se habilitará un botón de re
 ## Estructura del código
 El código se basa en el patrón de arquitectura MVC. 
 - El apartado de Modelo está formado por dos clases y un archivo de texto:
+  - `Palabras.txt`: contiene el diccionario de las palabras utilizadas por el programa (todas las palabras fueron extraídas de la siguiente página web: https://www.diccionariodedudas.com).
   - `ListaPalabras`: se encarga de retornar la palabra secreta para ser asignada, y de verificar que la palabra insertada por el usuario sea válida.
   - `WordleModel`: contiene la información del estado actual del juego, como la palabra secreta, la palabra insertada por el usuario, la fila y columna actual de la cuadrícula, etc. Se encarga de retoranr y actualizar la información del juego, así como realizar la comparación de la palabra secreta con la palabra del usuario.
-  - `Palabras.txt`: contiene el diccionario de las palabras utilizadas por el programa (todas las palabras fueron extraídas de la siguiente página web: https://www.diccionariodedudas.com).
+  
 - El apartado Vista está formado por siete clases:
-  - `Bordes`, `Colores`, y `Fuentes`:
+  - `Bordes`, `Colores`, y `Fuentes`: Contienen información sobre los distintos elementos de interfaz de usuario. Son utilizadas para actualizar la vista de manera más fácil.
+  - `PanelTitulo`: Muestra el título del juego y los distintos mensajes que el programa envía a la vista.
+  - `PanelCuadricula`: Muestra la cuadrícula en la cual el usuario inserta las distintas palabras. Actualiza las letras y colores de la cuadrícula cuando se le solicita.
+  -  `PanelTeclado`: Muestra un teclado debajo de la cuadrícula el cual funciona como guía del usuario para saber qué letras ya han sido usadas y cuáles son correctas.
+  -  `WordleView`:  
 
 
 
