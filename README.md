@@ -16,4 +16,6 @@ El código se basa en el patrón de arquitectura MVC.
 - Vista: La vista se encarga de actualizar el estado del modelo una vez que este cambia.
 - Controlador: El controlador se encarga de recibir las entradas de usuario y manejarlas para cambiar la simulación. Cuando la simualción debe cambiar, envía un mensaje al modelo para actualizar las celdas, así como un mensaje a la vista para actualizar la interfaz de usuario.
 
+(https://www.diccionariodedudas.com/)
+
 La vista utiliza la biblioteca gráfica Swing para generar la interfaz de usuario.
