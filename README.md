@@ -5,10 +5,12 @@ Wordle ([enlace a la página del juego](https://www.nytimes.com/games/wordle/ind
 ![MostrarImg1](readme-rsc/Wordle1.png)
 
 ## Cómo jugar
-El jugador tiene seis intentos para adivinar la palabra. Al introducir una supocisión, las letras de la palabra cambiarán de color de acuerdo a las siguientes reglas:
+El jugador tiene seis intentos para adivinar la palabra. Al introducir una suposición, las letras de la palabra cambiarán de color de acuerdo a las siguientes reglas:
 - Verde: Si la palabra secreta contiene la letra y además se encuentra en el lugar correcto, la letra cambia de color a verde.
 - Amarillo: Si la palabra secreta contiene la letra pero se encuentra en el lugar incorrecto, la letra cambia de color a amarillo.
 - Negro: Si la palarba secreta no contiene la letra, esta cambiará de color a negro.
+
+ACLARACIÓN: siguiendo las reglas del juego original, cuando la palabra insertada tenga una letra repetida y esta letra se encuentre en la palabra solo una vez (por ejemplo, armar y vista), se contará una sola de estas letras al cambiar el color a verde/amarillo, ya que solo aparece una vez en la palabra secreta.
   
 ## Estructura del código
 El código se basa en el patrón de arquitectura MVC. 
