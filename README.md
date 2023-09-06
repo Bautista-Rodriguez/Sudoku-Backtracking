@@ -12,6 +12,8 @@ El jugador tiene seis intentos para adivinar la palabra. Al introducir una supos
 
 ACLARACIÓN: siguiendo las reglas del juego original, cuando la palabra insertada tenga una letra repetida y esta letra se encuentre en la palabra solo una vez (por ejemplo, armar y vista), se contará una sola de estas letras al cambiar el color a verde/amarillo, ya que solo aparece una vez en la palabra secreta.
   
+![MostrarImg2](readme-rsc/Wordle2.png)
+  
 ## Estructura del código
 El código se basa en el patrón de arquitectura MVC. 
 - Modelo: El modelo se encarga de retornar y cambiar el estado actual de la simulación, así como los datos del tamaño de las celdas, la pantalla, y otros.
