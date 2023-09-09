@@ -3,7 +3,7 @@
 Este programa genera y soluciona distintas posiciones de un Sudoku con el algoritmo de `Backtracking`.
 Sudoku es un juego matemático, diseñado a finales de la década de 1970.
 
-![MostrarImg1](readme-rsc/Sudoku2.png)
+![MostrarImg1](readme-src/Sudoku.png)
 
 ## Reglas
 El objetivo del Sudoku es rellenar una cuadrícula de 9x9 celdas (dividida en regiones de 3x3 celdas) con los números del 1 al 9 de manera tal que:
